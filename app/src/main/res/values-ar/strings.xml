@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usingtext">في اللعبة يوجد 5 مستوات وكل مستوى يحتوي على عدة مكعبات صفراء ومكعب واحد احمر , عليك اخراج المكعب الاحمر باقل حركات ممكنة. </string>
+    <string name="developerDialogTitle">عن المطورين</string>
+    <string name="developerDialogMsg">تم التطوير بواسطة:
+
+	بهاء بدير
+	 تاتك يتسحاق
+</string>
+    <string name="developerDialogMsgbt">نمام</string>
+    <string name="exitDialogTitle">الخروج</string>
+    <string name="exitDialogMsg">هل تريد الخروج فعلا ؟؟</string>
+    <string name="exitDialogYes">نعم اكيد</string>
+    <string name="exitDialogNo">ليس الان</string>
+    <string name="gameUsing">طرق الاستخدام</string>
+    <string name="infobt">معلومات</string>
+    <string name="infoAc">صمم هذا البرامج من اجل زيادة السرعة الادراكية لدى اللاعب ,من خلال التطبيق يمكن انشاء طرق تفكير جديدة غير بديهيه بصدد حل المشاكل.</string>
+    <string name="Menu">القائمة</string>
+    <string name="Undo">رجوع خطوة</string>
+    <string name="Restart">اعادة</string>
+    <string name="aboutMSG">عن </string>
+    <string name="welcome" >WELCOME </string>
+    <string name="congratulations">انت محظوظ</string>
+    <string name="moves">عدد الحركات</string>
+    <string name="app_name">UnblockMe</string>
+    <string name="about">عن</string>
+    <string name="About">عن</string>
+    <string name="play">العب</string>
+    <string name="exit">الخروج</string>
+    <string name="title_activity_game">لعبة</string>
+    <string name="nextLevelDialog">جهز نفسك للمرحلة القادمة</string>
+    <string-array name="data">
+        <item >  1 مستوى </item>
+        <item > 2 مستوى</item>
+        <item > 3 مستوى</item>
+        <item > 4 مستوى</item>
+        <item > 5 مستوى</item>
+    </string-array>
+</resources>

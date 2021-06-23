@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="infobt">Info</string>
+    <string name="developerDialogTitle">About</string>
+    <string name="developerDialogMsg">Developped by:
+
+	Bahaa Bader
+	 Tatek Yizhak
+</string>
+    <string name="developerDialogMsgbt">OK</string>
+    <string name="exitDialogTitle">Exit</string>
+    <string name="exitDialogMsg">Do you want to exit ??</string>
+    <string name="exitDialogYes">Yes. Exit now!</string>
+    <string name="exitDialogNo">Not now</string>
+    <string name="gameUsing">Using Game</string>
+    <string name="Menu">Menu</string>
+    <string name="Undo">Undo</string>
+    <string name="Restart">Restart</string>
+    <string name="aboutMSG">About </string>
+    <string name="welcome">WELCOME </string>
+    <string name="moves">Moves Count</string>
+    <string name="congratulations">congratulations</string>
+    <string name="nextLevelDialog">Prepare for next level</string>
+    <string name="app_name">UnblockMe</string>
+    <string name="about">About</string>
+    <string name="About">About</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="usingtext">In the game there are 5 levels and each level contains several yellow cubes and one red cube, you have to remove the red cube with the fewest moves possible.</string>
+    <string name="title_activity_game">game</string>
+    <string-array name="data">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+    </string-array>
+    <string name="infoAc">This program is designed to increase
+        the players cognitive speed. Through the application,
+        new, non intuitiveways of thinking can be created in the matter of solving problems.</string>
+</resources>

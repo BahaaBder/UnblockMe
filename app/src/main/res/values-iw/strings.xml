@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="usingtext">במשחק יש 5 רמות וכל רמה מכילה כמה קוביות צהובות וקוביה אדומה אחת, אתה צריך להסיר את הקוביה האדומה עם הכי מעט מהלכים שאפשר.</string>
+    <string name="gameUsing">מדריך שימוש</string>
+    <string name="developerDialogTitle">אנפורמציה על המפתחים</string>
+    <string name="developerDialogMsg">פותח על ידי:
+
+	בהא בדיר
+	 טטק יצחק
+</string>
+    <string name="developerDialogMsgbt">אישור</string>
+    <string name="exitDialogTitle">יציאה</string>
+    <string name="exitDialogMsg">אתה רוצה לצאת ??</string>
+    <string name="exitDialogYes">כן עכשוי</string>
+    <string name="exitDialogNo">לא עכשוי</string>
+    <string name="infobt">אינפורמציה</string>
+    <string name="Menu">תפריט</string>
+    <string name="Undo">צעד אחורה</string>
+    <string name="Restart">איפוס </string>
+    <string name="aboutMSG">על האפליקציה </string>
+    <string name="welcome" >WELCOME </string>
+    <string name="congratulations">מזל טוב</string>
+    <string name="moves">מספר התנועות</string>
+    <string name="nextLevelDialog">תכין עצמך לשלב השני</string>
+    <string name="app_name">UnblockMe</string>
+    <string name="about">מידע</string>
+    <string name="About">מידע</string>
+    <string name="play">שחק</string>
+    <string name="exit">יציאה</string>
+    <string name="title_activity_game">משחק</string>
+    <string-array name="data">
+        <item >  רמה 1 </item>
+        <item > רמה 2 </item>
+        <item >רמה 3</item>
+        <item >רמה 4</item>
+        <item >רמה 5</item>
+    </string-array>
+    <string name="infoAc">תוכנית זו נועדה להגביר את המהירות הקוגניטיבית של השחקן, באמצעות היישום ניתן ליצור דרכי חשיבה חדשות ולא אינטואיטיביות בפתרון בעיות.</string>
+</resources>

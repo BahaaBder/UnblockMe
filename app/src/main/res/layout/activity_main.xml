@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_jeu"
+    tools:context=".MainActivity">
+    <!--android:background="#B16342"-->
+
+    <Button
+
+        android:id="@+id/buttonPlay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/play"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAbout"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAbout" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/exit"
+        android:textColor="#FFFFFF"
+        android:textColorLink="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="@+id/buttonAbout"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbout" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/about"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <ImageView
+        android:id="@+id/unmute_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_bt"
+        app:srcCompat="@drawable/unmute" />
+
+    <Button
+        android:background="@drawable/assistance_button_bg"
+        android:id="@+id/info_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infobt"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExit"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <Button
+        android:background="@drawable/assistance_button_bg"
+        android:id="@+id/usingGame_bt"
+        android:layout_width="104dp"
+        android:layout_height="46dp"
+        android:text="@string/gameUsing"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/info_bt"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExit"
+        app:layout_constraintVertical_bias="0.397" />
+
+</android.support.constraint.ConstraintLayout>
